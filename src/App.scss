@@ -1832,8 +1832,8 @@ footer {
 }
 
 body.modal-open {
-  overflow: hidden;
-  position: fixed;
+  overflow-y: hidden;
+  height: 100vh;
 }
 
 .modal {
