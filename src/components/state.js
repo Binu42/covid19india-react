@@ -371,10 +371,7 @@ function State(props) {
                   </div>
                 </Link>
               )}
-
-              <div className="TimeSeriesExplorer">
-                <TimeSeriesExplorer timeseries={timeseries} />
-              </div>
+              <TimeSeriesExplorer timeseries={timeseries} />
             </React.Fragment>
           )}
         </div>
